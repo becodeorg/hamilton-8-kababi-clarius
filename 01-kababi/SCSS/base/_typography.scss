@@ -11,10 +11,15 @@
 
 @font-face {
     font-family: 'fa-regular-300';
-    src: url('fa-regular-400.woff2')format('woff2'); 
+    src: url('fa-regular-400.woff2')format('woff2'); // Fa regular 300
 }
 
 @font-face {
     font-family: 'fa-solid-900';
-    src: url('fa-solid-900.woff2') format('woff2');
+    src: url('fa-solid-900.woff2') format('woff2'); // Fa solid 900
+}
+
+@font-face {
+    font-family: 'icons-category';
+    src: url('flaticon.ttf') format('truetype');
 }
