@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap');
+
+footer{
+    margin: 0;
+    padding: 0;
+    background-image: url("/01-kababi/assets/img/footer/img-ng-footer.jpg");
+    background-repeat: no-repeat;
+    color: $white;
+    
+        .footlogo{
+            margin-top: 30px;
+            vertical-align: middle;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows:auto;
+            grid-template-columns: 25% 25% 25% 25%;
+            width: 1440;
+            padding: 30px;
+            margin: 5px;
+        }
+
+        .footer-title{
+            font-size: 30px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+        }
+
+        ul{
+
+            font-family: "Helvetica",sans-serif;
+            color: $grey;
+        }
+
+        p{
+            color: $grey;
+            font-family: "Helvetica",sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: $grey;
+            font-family: "Helvetica",sans-serif;
+                &:hover{
+                    color: $white;
+                    font-weight: 900;
+                }
+        }
+        input{
+            height: 30px;
+            border: none;
+        }
+        .contact img{
+            width: 20px;
+        }
+        .link-footer{
+            color:$gold;
+        }
+        .footer-btn{
+            background-color: $gold;
+            height: 32px;
+            width: 40px;
+            border: none;
+        }
+        .socials i{
+            font-size: 20px;
+            color: $grey;
+            margin: 5px;
+            padding: 10px;
+            background-color: #9a9c9a65;
+            border-radius: 50%;
+        
+                &:hover{
+                color: $white;
+                background-color: $gold;
+            }
+        }   
+
+        
+
+}

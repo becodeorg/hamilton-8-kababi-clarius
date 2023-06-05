@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="CSS/style.css">
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80333a5599.js" crossorigin="anonymous"></script>
     <title>Kabibi Food</title>
 </head>
 <body>
@@ -248,7 +250,9 @@
 
     <footer>
 
-        <img src="assets/img/logo/logo2@2x.png" alt="Logo of the restaurant">
+        <img class="footlogo" src="assets/img/logo/logo2@2x.png" alt="Logo of the restaurant">
+        <div class="container">
+        <section class="about">
         <h3 class="footer-title">About</h3>
 
         <ul>
@@ -268,7 +272,9 @@
                 <a href="#">Food Lists</a>
             </li>
         </ul>
+        </section>
 
+        <section class="facilities">
         <h3 class="footer-title">Facilities</h3>
         <ul>
             <li>
@@ -287,9 +293,10 @@
                 <a href="">Special Offers</a>
             </li>
         </ul>
-
+            </section>
+        <section class="newsletter">
         <article>
-            <h3>Newsletters</h3>
+            <h3 class="footer-title">Newsletters</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
             <form action="">
                 <input type="email" placeholder="Enter Email Address">
@@ -297,28 +304,28 @@
                     <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
                 </button>
             </form>
-        </article>
+            </article>
+        </section>
+
+        <section class="contact">
 
         <h3 class="footer-title">Contact</h3>
         <ul>
             <li>
-                <img src="assets/icons/location-pin-svgrepo-com_1.svg" alt="Location pin">
-                <p>56 Main Street, D-Block, 2nd Floor, Melbourne, Australia</p>
+                <i class="fa-solid fa-location-dot" alt="icon of a location pin" style="color: #c8a96a;"></i> 56 Main Street, D-Block, 2nd Floor, Melbourne, Australia
             </li>
             <li>
-                <img src="assets/icons/open-mail-svgrepo-com.svg" alt="Icon of a mail">
-                <p>support@gmail.com</p>
+                <i class="fa-solid fa-envelope-open" alt ="icon of an open envelope" style="color: #c8a96a;"></i> support@gmail.com
             </li>
             <li>
-                <img src="assets/icons/phone-svgrepo-com_1.svg" alt="Icon of a phone">
-                <p>+012 (345) 67 899</p>
+                <i class="fa-solid fa-phone-flip" alt="icon of a phone" style="color: #c8a96a;"></i> +012 (345) 67 899
             </li>
             <li>
-                <img src="assets/icons/clock-svgrepo-com.svg" alt="Icon of a clock">
-                <p>08 am - 06 pm</p>
+                <i class="fa-solid fa-clock" alt="icon of a clock" style="color: #c8a96a;"></i> 08 am - 06 pm
             </li>
         </ul>
-
+        </section>
+        </div>
         <hr>
         <!--Si on veut se débarasser de la div-->
         <div>
@@ -326,10 +333,22 @@
             Copyright © 2021 The Kababi - Restaurant HTML Template. Designed by <a class="link-footer" href="#">Themesflat</a>
             </p>
             <img src="assets/img/footer/iconup@2x.png" alt="Icon of a spoon">
-            <img src="assets/icons/facebook-176-svgrepo-com_1.svg" alt="Facebook logo">
-            <img src="assets/icons/twitter-154-svgrepo-com.svg" alt="Twitter logo">
-            <img src="assets/icons/youtube-168-svgrepo-com.svg" alt="Youtube logo">
-            <img src="assets/icons/linkedin-svgrepo-com.svg" alt="LinkedIn Logo">
+            
+                <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f" alt="Facebook logo"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter" alt="Twitter logo"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube" alt="Youtube logo"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin" alt="Linkedin logo"></i>
+                </a>
+            </div>
         </div>
 
     </footer>
