@@ -1,0 +1,40 @@
+
+header {
+    height:950px;
+    width:100vw;
+    background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+    background-size: cover;
+    color:white;
+
+}
+
+header section {
+    height:819px;
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15%;
+    img {
+        height: auto;
+        position: absolute;
+        top: 19.5%;
+        left: 32.5%;
+    }
+    h1 {
+        font-family:"Playfair display";
+        font-size: 130px;
+        letter-spacing: -4.5px;
+        margin-bottom:30px;
+        line-height: 155px;
+    }
+    a {
+        padding:20px 30px;
+        border: 2px solid white;
+        text-align: center;
+        color:white;           
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}

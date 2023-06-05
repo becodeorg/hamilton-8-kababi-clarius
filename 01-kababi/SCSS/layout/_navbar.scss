@@ -1,0 +1,54 @@
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37.5px 20%;
+    //height: 75px;
+    color: white;
+
+    .navbar-brand {
+        display: flex;
+    }
+    .navbar-brand img{
+        height:50px;
+    }
+
+    .nav-list {
+        display:flex;
+
+        .nav-item {
+            cursor: pointer;
+            height:100%;
+            padding: 0 30px;
+            //transition: .4s;
+
+            :hover {
+                color: $gold;
+            }
+        }
+        .nav-link {
+            font-size:17px;
+        }
+       
+    }
+    div {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1em;
+        p i{
+            height:17px;
+            color:$gold;
+           }
+        a {
+            padding:20px 30px;
+            background-color: $gold;
+            text-align: center;
+            color:white;
+            display: inline-block;            
+            font-size: 14px;
+            border-radius: 5px;
+        }
+    }    
+}

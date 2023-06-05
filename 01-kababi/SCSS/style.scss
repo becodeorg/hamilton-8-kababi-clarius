@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap%27');
 
+@import "abstracts/colors";
 
 @import "base/reset";
 
 @import "base/base";
 
-@import "base/typography"
+@import "base/typography";
+
+@import "layout/header";
+
+@import "layout/navbar";
+
+@import "layout/footer";
+

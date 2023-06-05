@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap%27");
+/*back section 4 / cards section 7*/
+/*category / our menu)*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -14,9 +17,11 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -52,25 +57,90 @@ img {
   height: 100px;
 }
 
-@font-face {
-  font-family: "fa-brands-400";
-  src: url("fa-brands-400.woff2") format("woff2");
+header {
+  height: 950px;
+  width: 100vw;
+  background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  background-size: cover;
+  color: white;
 }
-@font-face {
-  font-family: "fa-light-300";
-  src: url("fa-light-300.woff2") format("woff2");
+
+header section {
+  height: 819px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 15%;
 }
-@font-face {
-  font-family: "fa-regular-300";
-  src: url("fa-regular-400.woff2") format("woff2");
+header section img {
+  height: auto;
+  position: absolute;
+  top: 19.5%;
+  left: 32.5%;
 }
-@font-face {
-  font-family: "fa-solid-900";
-  src: url("fa-solid-900.woff2") format("woff2");
+header section h1 {
+  font-family: "Playfair display";
+  font-size: 130px;
+  letter-spacing: -4.5px;
+  margin-bottom: 30px;
+  line-height: 155px;
 }
-@font-face {
-  font-family: "icons-category";
-  src: url("flaticon.ttf") format("truetype");
+header section a {
+  padding: 20px 30px;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37.5px 20%;
+  color: white;
+}
+nav .navbar-brand {
+  display: flex;
+}
+nav .navbar-brand img {
+  height: 50px;
+}
+nav .nav-list {
+  display: flex;
+}
+nav .nav-list .nav-item {
+  cursor: pointer;
+  height: 100%;
+  padding: 0 30px;
+}
+nav .nav-list .nav-item :hover {
+  color: #c8a96a;
+}
+nav .nav-list .nav-link {
+  font-size: 17px;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+nav div p i {
+  height: 17px;
+  color: #c8a96a;
+}
+nav div a {
+  padding: 20px 30px;
+  background-color: #c8a96a;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
