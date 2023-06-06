@@ -1,6 +1,4 @@
-/*back section 4 / cards section 7*/
-/*category / our menu)*/
-/*social icons*/
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap%27");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -60,7 +58,8 @@ img {
 
 header {
   height: 950px;
-  background-image: radial-gradient(circle, rgb(75, 104, 255) 0%, rgba(200, 169, 106, 0.1) 0%), url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  width: 100vw;
+  background-image: radial-gradient(circle, rgb(193, 193, 193) 0%, rgb(189, 187, 187) 11%, rgb(0, 0, 0) 52%), url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
   background-size: cover;
   color: white;
 }
@@ -188,6 +187,7 @@ nav ul li.nav-item1 :hover ul.dropdown {
   }
 }
 footer {
+  height: 800px;
   background-image: url("/01-kababi/assets/img/footer/img-ng-footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,6 +258,9 @@ footer .footer-btn {
   outline: none;
   cursor: pointer;
 }
+footer .underline {
+  padding-bottom: 5%;
+}
 footer hr {
   width: 80%;
 }
@@ -269,6 +272,11 @@ footer .copyright {
 footer #scroll-top {
   position: absolute;
   cursor: pointer;
+  z-index: 3;
+  text-align: center;
+  transform: translateY(-45px);
+  width: 100px;
+  height: 100px;
 }
 footer .socials {
   display: flex;
@@ -290,6 +298,7 @@ footer .socials i:hover {
   background-color: #c8a96a;
 }
 .section-1 {
+  height: 800px;
   background-color: #f5eee3;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,7 +318,7 @@ footer .socials i:hover {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   padding: 5%;
 }
 .section-1 article {
@@ -343,24 +352,29 @@ footer .socials i:hover {
 }
 
 .section-2 {
+  height: 800px;
   background-color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 1440px;
 }
 .section-2 .img1 {
-  float: left;
+  width: 315px;
+  height: 315px;
 }
 .section-2 .img2 {
+  width: 400px;
+  height: 400px;
   border: solid #fff 20px;
   border-radius: 50%;
   position: absolute;
-  margin-top: -30px;
-  display: block;
+  transform: translateY(-45px);
 }
 
 .section-3 {
+  height: 800px;
   background-color: #fff;
 }
 .section-3 .transparent-p {
@@ -384,6 +398,7 @@ footer .socials i:hover {
 }
 
 .section-4 {
+  height: 800px;
   background-color: #f5eee3;
 }
 .section-4 .transparent-p {
@@ -407,6 +422,7 @@ footer .socials i:hover {
 }
 
 .section-5 {
+  height: 800px;
   background-color: #fff;
 }
 .section-5 .transparent-p {
@@ -430,6 +446,7 @@ footer .socials i:hover {
 }
 
 .section-6 {
+  height: 800px;
   background-image: url("/01-kababi/assets/img/our-chefs/imgbg-ourchefs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -455,6 +472,7 @@ footer .socials i:hover {
 }
 
 .section-7 {
+  height: 800px;
   background-color: #fff;
 }
 .section-7 .transparent-p {

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap%27');
 
 footer {
+    height:800px;
     background-image: url("/01-kababi/assets/img/footer/img-ng-footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,6 +82,9 @@ footer {
             cursor: pointer;
         }
 
+        .underline{
+            padding-bottom: 5%;
+        }
         hr{
             width: 80%;
         }
@@ -93,6 +97,11 @@ footer {
         #scroll-top{
             position: absolute;
             cursor: pointer;
+            z-index: 3;
+            text-align: center;
+            transform: translateY(-45px);
+            width: 100px;
+            height: 100px;
         }
 
         .socials{
@@ -115,9 +124,4 @@ footer {
                 background-color: $gold;
             }
         }
-        .underline {
-        
-        }
-
-
-}
+    }
