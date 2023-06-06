@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap%27");
+=======
+>>>>>>> a514669f87c16481f8fc3ffc3627cbe30aa6f8a7
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,6 +59,7 @@ img {
   height: 100px;
 }
 
+<<<<<<< HEAD
 header {
   height: 950px;
   width: 100vw;
@@ -440,4 +444,6 @@ footer .socials i:hover {
   margin: 20px 10px;
 }
 
+=======
+>>>>>>> a514669f87c16481f8fc3ffc3627cbe30aa6f8a7
 /*# sourceMappingURL=style.css.map */
