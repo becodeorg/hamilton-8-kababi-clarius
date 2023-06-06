@@ -4,7 +4,16 @@
     background-color: $mediumbeige;
     background-repeat: no-repeat;
     background-size: cover;
-        h2{
+
+        .transparent-p{
+        font-family: 'Playfair Display', serif;
+        color: $lightbeige;
+        font-size: 200px;
+        float: left;
+        position: absolute;
+        margin-bottom: 10px;
+    }
+    h2{
         font-family: 'Playfair Display', serif;
         font-size: 30px;
         color: $black;
@@ -15,12 +24,16 @@
         color: $black;
         text-align: center;
     }
+
         div{
+        margin-top: 10em;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        text-align: center;
+        align-items: center;
         padding: 5%;
+        gap: 1em;
     }
         article{
         display: grid;
@@ -34,25 +47,22 @@
     }
         article p{
         color: $black;
-        &:hover{
-            color: $white;
-        }
-    }
-        i{
-        align-items: center;
+        font-family: 'Playfair Display', serif;
+        font-size:18px;
 
         &:hover{
             color: $white;
         }
     }
-    .transparent-p{
-        font-family: 'Playfair Display', serif;
-        color: $lightbeige;
-        font-size: 100px;
-        float: left;
-        position: absolute;
-        margin-bottom: 10px;
+        i{
+        color: $black;
+        text-align: center;
+
+        &:hover{
+            color: $white;
+        }
     }
+    
 }
 
 .section-2{
@@ -81,10 +91,11 @@
 .section-3{
         height:800px;
         background-color: $white;
+
         .transparent-p{
         font-family: 'Playfair Display', serif;
         color: $lightbeige;
-        font-size: 100px;
+        font-size: 200px;
         float: left;
         position: absolute;
         margin-bottom: 10px;
@@ -105,10 +116,11 @@
 .section-4{
         height:800px;
         background-color: $mediumbeige;
+
         .transparent-p{
         font-family: 'Playfair Display', serif;
         color: $lightbeige;
-        font-size: 100px;
+        font-size: 200px;
         float: left;
         position: absolute;
         margin-bottom: 10px;
@@ -129,10 +141,11 @@
 .section-5{
         height:800px;    
         background-color: $white;
+        
         .transparent-p{
         font-family: 'Playfair Display', serif;
         color: $lightbeige;
-        font-size: 100px;
+        font-size: 200px;
         float: left;
         position: absolute;
         margin-bottom: 10px;
@@ -150,17 +163,18 @@
     }
 
 }
-.section-6{
-    height:800px;
-    background-image: url("/01-kababi/assets/img/our-chefs/imgbg-ourchefs.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 150px 0 255px 0;
-    text-align: center;
+    .section-6{
+        height:800px;
+        background-image: url("/01-kababi/assets/img/our-chefs/imgbg-ourchefs.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px 0 2px 0;
+        text-align: center;
+
         .transparent-p{
         font-family: 'Playfair Display', serif;
         color: #ffffff07;
-        font-size: 100px;
+        font-size: 200px;
         float: left;
         position: absolute;
         margin-bottom: 100px;
@@ -170,12 +184,22 @@
         font-size: 30px;
         color: $white;
     }
-
         p{
         font-family: "Helvetica";
         color: $white;
     }
-
+    .chefs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        
+    }
+        img{
+            width: 300px;
+            height:400px
+        }
 }
 .section-7{
         height:800px;
@@ -184,7 +208,7 @@
     .transparent-p{
         font-family: 'Playfair Display', serif;
         color: $lightbeige;
-        font-size: 100px;
+        font-size: 200px;
         float: left;
         position: absolute;
         margin-bottom: 10px;

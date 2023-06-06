@@ -311,6 +311,14 @@ footer .socials i:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.section-1 .transparent-p {
+  font-family: "Playfair Display", serif;
+  color: #faf6f0;
+  font-size: 200px;
+  float: left;
+  position: absolute;
+  margin-bottom: 10px;
+}
 .section-1 h2 {
   font-family: "Playfair Display", serif;
   font-size: 30px;
@@ -323,11 +331,14 @@ footer .socials i:hover {
   text-align: center;
 }
 .section-1 div {
+  margin-top: 10em;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  text-align: center;
+  align-items: center;
   padding: 5%;
+  gap: 1em;
 }
 .section-1 article {
   display: grid;
@@ -340,23 +351,18 @@ footer .socials i:hover {
 }
 .section-1 article p {
   color: #1d1d1d;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
 }
 .section-1 article p:hover {
   color: #fff;
 }
 .section-1 i {
-  align-items: center;
+  color: #1d1d1d;
+  text-align: center;
 }
 .section-1 i:hover {
   color: #fff;
-}
-.section-1 .transparent-p {
-  font-family: "Playfair Display", serif;
-  color: #faf6f0;
-  font-size: 100px;
-  float: left;
-  position: absolute;
-  margin-bottom: 10px;
 }
 
 .section-2 {
@@ -388,7 +394,7 @@ footer .socials i:hover {
 .section-3 .transparent-p {
   font-family: "Playfair Display", serif;
   color: #faf6f0;
-  font-size: 100px;
+  font-size: 200px;
   float: left;
   position: absolute;
   margin-bottom: 10px;
@@ -412,7 +418,7 @@ footer .socials i:hover {
 .section-4 .transparent-p {
   font-family: "Playfair Display", serif;
   color: #faf6f0;
-  font-size: 100px;
+  font-size: 200px;
   float: left;
   position: absolute;
   margin-bottom: 10px;
@@ -436,7 +442,7 @@ footer .socials i:hover {
 .section-5 .transparent-p {
   font-family: "Playfair Display", serif;
   color: #faf6f0;
-  font-size: 100px;
+  font-size: 200px;
   float: left;
   position: absolute;
   margin-bottom: 10px;
@@ -458,13 +464,13 @@ footer .socials i:hover {
   background-image: url("/01-kababi/assets/img/our-chefs/imgbg-ourchefs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 0 255px 0;
+  padding: 150px 0 2px 0;
   text-align: center;
 }
 .section-6 .transparent-p {
   font-family: "Playfair Display", serif;
   color: rgba(255, 255, 255, 0.0274509804);
-  font-size: 100px;
+  font-size: 200px;
   float: left;
   position: absolute;
   margin-bottom: 100px;
@@ -478,6 +484,17 @@ footer .socials i:hover {
   font-family: "Helvetica";
   color: #fff;
 }
+.section-6 .chefs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.section-6 img {
+  width: 300px;
+  height: 400px;
+}
 
 .section-7 {
   height: 800px;
@@ -486,7 +503,7 @@ footer .socials i:hover {
 .section-7 .transparent-p {
   font-family: "Playfair Display", serif;
   color: #faf6f0;
-  font-size: 100px;
+  font-size: 200px;
   float: left;
   position: absolute;
   margin-bottom: 10px;

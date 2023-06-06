@@ -9,85 +9,85 @@ footer {
     color: $white;
     text-align: center;
 
-        .footlogo{
-            margin-top: 40px;
-            height: 60px;
-        }
+    .footlogo{
+        margin-top: 40px;
+        height: 60px;
+    }
 
-        .container {
-            display: grid;
-            grid-template-rows:auto;
-            grid-template-columns: 25% 25% 25% 25%;
-            text-align: left;
-            padding: 5% 10%;
-            margin: 5 0;
-            line-height: 38px;
+    .container {
+        display: grid;
+        grid-template-rows:auto;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: left;
+        padding: 5% 10%;
+        margin: 5 0;
+        line-height: 38px;
 
-        }
+    }
 
-        .footer-title{
-            font-size: 30px;
-            font-family: 'Playfair Display', serif;
-            font-weight: 600;
-            padding-bottom: 30px;
-            align-items: center;
-        }
+    .footer-title{
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        padding-bottom: 30px;
+        align-items: center;
+    }
 
-        ul{
+    ul{
 
-            font-family: "Helvetica",sans-serif;
-            color: $grey;
-            font-size: 16px;
-        }
+        font-family: "Helvetica",sans-serif;
+        color: $grey;
+        font-size: 16px;
+    }
 
-        p{
-            color: $grey;
-            font-family: "Helvetica",sans-serif;
-            font-size: 16px;
-        }
+    p{
+        color: $grey;
+        font-family: "Helvetica",sans-serif;
+        font-size: 16px;
+    }
 
-        a{
-            text-decoration: none;
-            color: $grey;
-            font-family: "Helvetica",sans-serif;
-            font-size: 16px;
-                &:hover{
-                    color: $white;
-                    font-weight: 900;
-                }
+    a{
+        text-decoration: none;
+        color: $grey;
+        font-family: "Helvetica",sans-serif;
+        font-size: 16px;
+            &:hover{
+                color: $white;
+                font-weight: 900;
+            }
         }
-        input{
-            height: 40px;
-            width: 80%;
-            border: none;
-        }
-        .contact{
-            margin-left: 100px;
-        }
-        .contact img{
-            width: 20px;
-        }
+    input{
+        height: 40px;
+        width: 80%;
+        border: none;
+    }
+    .contact{
+        margin-left: 100px;
+    }
+    .contact img{
+        width: 20px;
+    }
 
-        .link-footer{
-            color:$gold;
-        }
-        .footer-btn{
-            background-color: $gold;
-            display: inline-block;
-            position: absolute;
-            height: 42px;
-            width: 3%;
-            border: none;
-            outline: none;
-            cursor: pointer;
-        }
+    .link-footer{
+        color:$gold;
+    }
+    .footer-btn{
+        background-color: $gold;
+        display: inline-block;
+        position: absolute;
+        height: 42px;
+        width: 3%;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
 
-        .underline{
-            padding-bottom: 5%;
-        }
-        hr{
-            width: 80%;
-        }
+    .underline{
+        padding-bottom: 5%;
+    }
+    hr{
+        width: 80%;
+    }
 
         .copyright{
             float: left;
@@ -123,5 +123,10 @@ footer {
                 color: $white;
                 background-color: $gold;
             }
+
         }
-    }
+}
+
+
+
+
