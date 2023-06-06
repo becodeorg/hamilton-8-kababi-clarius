@@ -17,4 +17,4 @@ Our challenge was to build a responsive website based on a given template in 4 d
 * SASS
 * Git (conflict resolution 😮‍💨)
 ---
-Take a look at our finished project [right here](link)
+**Take a look at our finished project [right here](link)**
