@@ -1,4 +1,6 @@
-
+/*back section 4 / cards section 7*/
+/*category / our menu)*/
+/*social icons*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap%27");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -58,8 +60,8 @@ img {
 
 header {
   height: 950px;
-  width: 100vw;
-  background-image: radial-gradient(circle, rgb(193, 193, 193) 0%, rgb(189, 187, 187) 11%, rgb(0, 0, 0) 52%), url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
   background-size: cover;
   color: white;
 }
@@ -122,17 +124,24 @@ nav .nav-list .nav-item :hover {
 nav .nav-list .nav-link {
   font-size: 17px;
 }
-nav div {
+nav .nav-list button.nav-link1 {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+nav div.book {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1em;
 }
-nav div p i {
+nav div.book p i {
   height: 17px;
   color: #c8a96a;
 }
-nav div a {
+nav div.book a {
   padding: 20px 30px;
   background-color: #c8a96a;
   text-align: center;
@@ -141,51 +150,49 @@ nav div a {
   font-size: 14px;
   border-radius: 5px;
 }
-nav ul li.nav-item1 {
-  display: inline-block;
+nav .dropdown {
   position: relative;
 }
-nav ul li.nav-item1 a {
-  display: block;
-  padding: 20px 25px;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  font-size: 17px;
-}
-nav ul li.nav-item1 .dropdown {
-  width: 100%;
+nav .dropdown-menu {
   position: absolute;
-  z-index: 999;
-  display: none;
+  left: 0;
+  top: calc(100% + 0.25rem);
+  background-color: white;
+  color: black;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  opacity: 0;
+  transform: translateY(0);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
 }
-nav ul li.nav-item1 .dropdown li {
-  display: block;
-}
-nav ul li.nav-item1 :hover ul.dropdown {
-  display: block;
+nav .dropdown > .nav-link1:focus + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(-10px);
+  pointer-events: auto;
 }
 
-@media (max-width: 1080px) {
-  nav {
-    padding: 0 2rem;
-  }
-  nav .nav-list .nav-item {
-    padding: 0 20px;
-  }
+/*@media (max-width:1080px) {
+    nav {
+        padding: 0 2rem;
+        .nav-list .nav-item {
+            padding: 0 20px;
+        }
+    }
 }
-@media (max-width: 675px) {
-  nav .nav-list {
-    display: grid;
-    position: absolute;
-    width: 100%;
-    top: 75px;
-    left: 0;
-    transform: translateY(-100%);
-    z-index: -1;
-    transition: 0.6s;
-  }
-}
+
+@media (max-width:675px) {
+
+    nav .nav-list {
+        display: grid;
+        position:absolute;
+        width:100%;
+        top:75px;
+        left:0;
+        transform:translateY(-100%);
+        z-index: -1;
+        transition:.6s;
+    }
+}*/
 footer {
   height: 800px;
   background-image: url("/01-kababi/assets/img/footer/img-ng-footer.jpg");
@@ -297,6 +304,7 @@ footer .socials i:hover {
   color: #fff;
   background-color: #c8a96a;
 }
+
 .section-1 {
   height: 800px;
   background-color: #f5eee3;
