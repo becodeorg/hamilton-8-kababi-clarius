@@ -366,25 +366,40 @@ footer .socials i:hover {
 }
 
 .section-2 {
-  height: 800px;
   background-color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 1440px;
+  margin-bottom: 100px;
 }
-.section-2 .img1 {
-  width: 315px;
-  height: 315px;
+.section-2 .section-2__img1 {
+  height: 350px;
+  transition: transform 0.3s ease-out;
 }
-.section-2 .img2 {
-  width: 400px;
-  height: 400px;
+.section-2 .section-2__img1:hover {
+  transform: translate(0, -20px);
+}
+.section-2 .section-2__img2 {
+  margin-top: -150px;
+  height: 50%;
   border: solid #fff 20px;
   border-radius: 50%;
-  position: absolute;
-  transform: translateY(-45px);
+  transition: transform 0.3s ease-out;
+  text-align: center;
+  display: inline-block;
+}
+.section-2 .section-2__img2:hover {
+  transform: translate(0, -20px);
+}
+.section-2 .section-2__img3 {
+  width: 350px;
+  height: auto;
+  padding-right: 30px;
+  transition: transform 0.3s ease-out;
+}
+.section-2 .section-2__img3:hover {
+  transform: translate(0, -20px);
 }
 
 .section-3 {

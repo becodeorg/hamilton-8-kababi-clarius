@@ -1,0 +1,26 @@
+
+.section-4{
+    height:800px;
+    background-color: $mediumbeige;
+
+    .transparent-p{
+    font-family: 'Playfair Display', serif;
+    color: $lightbeige;
+    font-size: 200px;
+    float: left;
+    position: absolute;
+    margin-bottom: 10px;
+}
+    h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: $black;
+    text-align: center;
+}
+    p{
+    font-family: "Helvetica";
+    color: $black;
+    text-align: center;
+}
+
+}
