@@ -8,10 +8,10 @@ Our challenge was to build a responsive website based on a given template in 4 d
 ## Members
 [Clara](https://github.com/clamaha) & [Marius](https://github.com/Flabidouf) aka Clarius
 
-### Languages used
-* HTML
+## Languages used
++ HTML
 * SCSS
-### Skills needed
+## Skills needed
 * Team work
 * Organization
 * SASS
