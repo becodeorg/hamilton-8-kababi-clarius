@@ -312,8 +312,6 @@ footer .socials i:hover {
   background-size: cover;
 }
 .section-1 .transparent-p {
-  box-sizing: border-box;
-  z-index: 2;
   font-family: "Playfair Display", serif;
   color: #faf6f0;
   font-size: 200px;
@@ -322,32 +320,33 @@ footer .socials i:hover {
   margin-bottom: 10px;
 }
 .section-1 h2 {
-  box-sizing: border-box;
-  z-index: 0;
   font-family: "Playfair Display", serif;
   font-size: 50px;
   color: #1d1d1d;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
-.section-1 p {
+.section-1 .p-title {
   font-family: "Helvetica";
   color: #1d1d1d;
   font-size: 25px;
   text-align: center;
   padding-top: 50px;
 }
-.section-1 img {
+.section-1 p img {
+  align-items: end;
   width: 80px;
-  align-items: center;
+  text-align: center;
+  padding: 5px;
 }
-.section-1 div {
-  margin: 2em 0;
+.section-1 p img:hover {
+  color: #fff;
+}
+.section-1 .cases {
+  margin: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
   text-align: center;
-  align-items: center;
   padding: 5%;
   gap: 1em;
 }
@@ -364,7 +363,7 @@ footer .socials i:hover {
 .section-1 article p {
   color: #1d1d1d;
   font-family: "Playfair Display", serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 .section-1 article p:hover {
   color: #fff;
@@ -441,7 +440,7 @@ footer .socials i:hover {
 }
 
 .section-4 {
-  height: 800px;
+  height: 900px;
   background-color: #f5eee3;
 }
 .section-4 .transparent-p {
@@ -454,18 +453,74 @@ footer .socials i:hover {
 }
 .section-4 h2 {
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #1d1d1d;
   text-align: center;
+  padding-top: 50px;
 }
 .section-4 p {
   font-family: "Helvetica";
   color: #1d1d1d;
+  font-size: 25px;
   text-align: center;
+  padding-top: 50px;
+}
+.section-4 h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  color: #1d1d1d;
+}
+.section-4 .p1 {
+  font-family: "Helvetica";
+  color: #9a9ca5;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 10px;
+}
+.section-4 .p2 {
+  color: #c8a96a;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  text-align: end;
+  position: relative;
+  transform: translateY(-110%);
+}
+.section-4 .cases {
+  margin: 0;
+  margin: 0 372px;
+  padding: 0;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 12.5% 12.5% 12.5% 12.5%;
+  padding: 5%;
+  gap: 2em;
+}
+.section-4 article {
+  display: grid;
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 5px;
+  align-items: center;
+}
+.section-4 article:hover {
+  border: dotted 3px #c8a96a;
+}
+.section-4 #steak {
+  width: 25px;
+  height: 600px;
+  float: left;
+  transform: translateY(-100%);
+}
+.section-4 #bread {
+  width: 25px;
+  height: 600px;
+  float: right;
+  transform: translateY(-200%);
 }
 
 .section-5 {
-  height: 800px;
+  height: 900px;
   background-color: #fff;
 }
 .section-5 .transparent-p {
@@ -478,22 +533,24 @@ footer .socials i:hover {
 }
 .section-5 h2 {
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #1d1d1d;
   text-align: center;
+  padding-top: 50px;
 }
 .section-5 p {
   font-family: "Helvetica";
   color: #1d1d1d;
+  font-size: 25px;
   text-align: center;
+  padding-top: 50px;
 }
 
 .section-6 {
-  height: 800px;
+  height: 900px;
   background-image: url("/01-kababi/assets/img/our-chefs/imgbg-ourchefs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 0 2px 0;
   text-align: center;
 }
 .section-6 .transparent-p {
@@ -502,31 +559,40 @@ footer .socials i:hover {
   font-size: 200px;
   float: left;
   position: absolute;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 .section-6 h2 {
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #fff;
+  text-align: center;
+  padding-top: 50px;
 }
 .section-6 p {
   font-family: "Helvetica";
   color: #fff;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
 }
 .section-6 .chefs {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1em;
+  gap: 2em;
+  margin-top: 10em;
 }
 .section-6 img {
   width: 300px;
   height: 400px;
 }
+.section-6 img:hover {
+  box-shadow: 0 0 100px #fff;
+}
 
 .section-7 {
-  height: 800px;
+  height: 900px;
   background-color: #fff;
 }
 .section-7 .transparent-p {
@@ -539,14 +605,17 @@ footer .socials i:hover {
 }
 .section-7 h2 {
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #1d1d1d;
   text-align: center;
+  padding-top: 50px;
 }
-.section-7 p {
+.section-7 .p-title {
   font-family: "Helvetica";
   color: #1d1d1d;
+  font-size: 25px;
   text-align: center;
+  padding-top: 50px;
 }
 .section-7 div {
   display: flex;

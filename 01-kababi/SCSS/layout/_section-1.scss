@@ -5,51 +5,51 @@
     background-size: cover;
 
         .transparent-p{
-        box-sizing: border-box;
-        z-index:2;
-        font-family: 'Playfair Display', serif;
-        color: $lightbeige;
-        font-size: 200px;
-        float: left;
-        position: absolute;
-        margin-bottom: 10px;
+            font-family: 'Playfair Display', serif;
+            color: $lightbeige;
+            font-size: 200px;
+            float: left;
+            position: absolute;
+            margin-bottom: 10px;
     }
-    h2{
-        box-sizing: border-box;
-        z-index: 0;
-        font-family: 'Playfair Display', serif;
-        font-size: 50px;
-        color: $black;
-        text-align: center;
-        padding-top: 100px;
+        h2{
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
+            color: $black;
+            text-align: center;
+            padding-top: 50px;
     }
-        p{
-        font-family: "Helvetica";
-        color: $black;
-        font-size: 25px;
-        text-align: center;
-        padding-top: 50px;
+        .p-title{
+            font-family: "Helvetica";
+            color: $black;
+            font-size: 25px;
+            text-align: center;
+            padding-top: 50px;
     }
-        img{
+        p img{
+            align-items: end;
             width: 80px;
-            align-items: center;
+            text-align: center;
+            padding: 5px;
+
+            &:hover{
+                color: $white;
+            }
         }
-        div{
-        margin: 2em 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        padding: 5%;
-        gap: 1em;
+        .cases{
+            margin:0;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            padding: 5%;
+            gap: 1em;
     }
         article{
-        display: grid;
-        background-color: $white;
-        padding: 3%;
-        margin-right: 10px;
-        width: 250px;
+            display: grid;
+            background-color: $white;
+            padding: 3%;
+            margin-right: 10px;
+            width: 250px;
 
         &:hover{
             background-color: $gold;
@@ -59,7 +59,7 @@
         article p{
         color: $black;
         font-family: 'Playfair Display', serif;
-        font-size:22px;
+        font-size:20px;
 
         &:hover{
             color: $white;
