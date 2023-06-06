@@ -1,0 +1,200 @@
+.section-1{
+    background-color: $mediumbeige;
+    background-repeat: no-repeat;
+    background-size: cover;
+        h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: $black;
+        text-align: center;
+    }
+        p{
+        font-family: "Helvetica";
+        color: $black;
+        text-align: center;
+    }
+        div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;     
+    }
+        article{
+        display: grid;
+        background-color: $white;
+        padding: 3%;
+        margin-right: 10px;
+
+        &:hover{
+            background-color: $gold;
+        }
+    }
+        article p{
+        color: $black;
+        &:hover{
+            color: $white;
+        }
+    }
+        i{
+        align-items: center;
+
+        &:hover{
+            color: $white;
+        }
+    }
+    .transparent-p{
+        font-family: 'Playfair Display', serif;
+        color: $lightbeige;
+        font-size: 100px;
+        float: left;
+        position: absolute;
+        margin-bottom: 10px;
+    }
+}
+
+.section-2{
+    background-color: $white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    .img1{
+        float: left;
+    }
+    .img2{
+        border:solid $white 20px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -30px;
+        display: block;
+    }
+}
+
+.section-3{
+    background-color: $white;
+        .transparent-p{
+        font-family: 'Playfair Display', serif;
+        color: $lightbeige;
+        font-size: 100px;
+        float: left;
+        position: absolute;
+        margin-bottom: 10px;
+    }    
+        h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: $black;
+        text-align: center;
+    }
+        p{
+        font-family: "Helvetica";
+        color: $black;
+        text-align: center;
+    }
+    
+}
+.section-4{
+    background-color: $mediumbeige;
+        .transparent-p{
+        font-family: 'Playfair Display', serif;
+        color: $lightbeige;
+        font-size: 100px;
+        float: left;
+        position: absolute;
+        margin-bottom: 10px;
+    }
+        h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: $black;
+        text-align: center;
+    }
+        p{
+        font-family: "Helvetica";
+        color: $black;
+        text-align: center;
+    }
+    
+}
+.section-5{
+    background-color: $white;
+        .transparent-p{
+        font-family: 'Playfair Display', serif;
+        color: $lightbeige;
+        font-size: 100px;
+        float: left;
+        position: absolute;
+        margin-bottom: 10px;
+    }
+        h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: $black;
+        text-align: center;
+    }
+        p{
+        font-family: "Helvetica";
+        color: $black;
+        text-align: center;
+    }
+   
+}
+.section-6{
+    background-image: url("/01-kababi/assets/img/our-chefs/imgbg-ourchefs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 255px 0;
+    text-align: center;
+        .transparent-p{
+        font-family: 'Playfair Display', serif;
+        color: #ffffff07;
+        font-size: 100px;
+        float: left;
+        position: absolute;
+        margin-bottom: 100px;
+    }
+        h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: $white;
+    }
+    
+        p{
+        font-family: "Helvetica";
+        color: $white;
+    }
+    
+}
+.section-7{
+    background-color: $white;
+
+    .transparent-p{
+        font-family: 'Playfair Display', serif;
+        color: $lightbeige;
+        font-size: 100px;
+        float: left;
+        position: absolute;
+        margin-bottom: 10px;
+    }
+        h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: $black;
+        text-align: center;
+    }
+        p{
+        font-family: "Helvetica";
+        color: $black;
+        text-align: center;
+    }
+    div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px 10px;
+
+    }
+}

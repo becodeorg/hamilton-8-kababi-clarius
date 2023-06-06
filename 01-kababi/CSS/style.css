@@ -1,6 +1,4 @@
-/*back section 4 / cards section 7*/
-/*category / our menu)*/
-/*social icons*/
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -18,9 +16,11 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -56,66 +56,146 @@ img {
   height: 100px;
 }
 
-@font-face {
-  font-family: "fa-brands-400";
-  src: url("fa-brands-400.woff2") format("woff2");
+header {
+  height: 950px;
+  width: 100vw;
+  background-image: radial-gradient(circle, rgb(193, 193, 193) 0%, rgb(189, 187, 187) 11%, rgb(0, 0, 0) 52%), url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  background-size: cover;
+  color: white;
 }
-@font-face {
-  font-family: "fa-light-300";
-  src: url("fa-light-300.woff2") format("woff2");
+
+header section {
+  height: 819px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 15%;
 }
-@font-face {
-  font-family: "fa-regular-300";
-  src: url("fa-regular-400.woff2") format("woff2");
+header section img {
+  height: auto;
+  position: absolute;
+  top: 19.5%;
+  left: 32.5%;
 }
-@font-face {
-  font-family: "fa-solid-900";
-  src: url("fa-solid-900.woff2") format("woff2");
+header section h1 {
+  font-family: "Playfair display";
+  font-size: 130px;
+  letter-spacing: -4.5px;
+  margin-bottom: 30px;
+  line-height: 155px;
 }
+header section a {
+  padding: 20px 30px;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37.5px 20%;
+  color: white;
+}
+nav .navbar-brand {
+  display: flex;
+}
+nav .navbar-brand img {
+  height: 50px;
+}
+nav .nav-list {
+  display: flex;
+}
+nav .nav-list .nav-item {
+  cursor: pointer;
+  height: 100%;
+  padding: 0 30px;
+}
+nav .nav-list .nav-item :hover {
+  color: #c8a96a;
+}
+nav .nav-list .nav-link {
+  font-size: 17px;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+nav div p i {
+  height: 17px;
+  color: #c8a96a;
+}
+nav div a {
+  padding: 20px 30px;
+  background-color: #c8a96a;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
 footer {
-  margin: 0;
-  padding: 0;
   background-image: url("/01-kababi/assets/img/footer/img-ng-footer.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
+  text-align: center;
 }
 footer .footlogo {
-  margin-top: 30px;
-  vertical-align: middle;
+  margin-top: 40px;
+  height: 60px;
 }
 footer .container {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 25% 25% 25% 25%;
-  width: 1440;
-  padding: 30px;
-  margin: 5px;
+  text-align: left;
+  padding: 5% 10%;
+  margin: 5 0;
+  line-height: 38px;
 }
 footer .footer-title {
   font-size: 30px;
   font-family: "Playfair Display", serif;
   font-weight: 600;
+  padding-bottom: 30px;
+  align-items: center;
 }
 footer ul {
   font-family: "Helvetica", sans-serif;
   color: #9a9ca5;
+  font-size: 16px;
 }
 footer p {
   color: #9a9ca5;
   font-family: "Helvetica", sans-serif;
+  font-size: 16px;
 }
 footer a {
   text-decoration: none;
   color: #9a9ca5;
   font-family: "Helvetica", sans-serif;
+  font-size: 16px;
 }
 footer a:hover {
   color: #fff;
   font-weight: 900;
 }
 footer input {
-  height: 30px;
+  height: 40px;
+  width: 80%;
   border: none;
+}
+footer .contact {
+  margin-left: 100px;
 }
 footer .contact img {
   width: 20px;
@@ -125,21 +205,239 @@ footer .link-footer {
 }
 footer .footer-btn {
   background-color: #c8a96a;
-  height: 32px;
-  width: 40px;
+  display: inline-block;
+  position: absolute;
+  height: 42px;
+  width: 3%;
   border: none;
+  outline: none;
+  cursor: pointer;
+}
+footer hr {
+  width: 80%;
+}
+footer .copyright {
+  float: left;
+  padding-left: 10%;
+  margin-top: 1%;
+}
+footer #scroll-top {
+  position: absolute;
+  cursor: pointer;
+}
+footer .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 10%;
+  margin-top: 1%;
 }
 footer .socials i {
   font-size: 20px;
   color: #9a9ca5;
   margin: 5px;
-  padding: 10px;
+  padding: 12px;
   background-color: rgba(154, 156, 154, 0.3960784314);
   border-radius: 50%;
 }
 footer .socials i:hover {
   color: #fff;
   background-color: #c8a96a;
+}
+
+.section-1 {
+  background-color: #f5eee3;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-1 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #1d1d1d;
+  text-align: center;
+}
+.section-1 p {
+  font-family: "Helvetica";
+  color: #1d1d1d;
+  text-align: center;
+}
+.section-1 div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.section-1 article {
+  display: grid;
+  background-color: #fff;
+  padding: 3%;
+  margin-right: 10px;
+}
+.section-1 article:hover {
+  background-color: #c8a96a;
+}
+.section-1 article p {
+  color: #1d1d1d;
+}
+.section-1 article p:hover {
+  color: #fff;
+}
+.section-1 i {
+  align-items: center;
+}
+.section-1 i:hover {
+  color: #fff;
+}
+.section-1 .transparent-p {
+  font-family: "Playfair Display", serif;
+  color: #faf6f0;
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  margin-bottom: 10px;
+}
+
+.section-2 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.section-2 .img1 {
+  float: left;
+}
+.section-2 .img2 {
+  border: solid #fff 20px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -30px;
+  display: block;
+}
+
+.section-3 {
+  background-color: #fff;
+}
+.section-3 .transparent-p {
+  font-family: "Playfair Display", serif;
+  color: #faf6f0;
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  margin-bottom: 10px;
+}
+.section-3 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #1d1d1d;
+  text-align: center;
+}
+.section-3 p {
+  font-family: "Helvetica";
+  color: #1d1d1d;
+  text-align: center;
+}
+
+.section-4 {
+  background-color: #f5eee3;
+}
+.section-4 .transparent-p {
+  font-family: "Playfair Display", serif;
+  color: #faf6f0;
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  margin-bottom: 10px;
+}
+.section-4 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #1d1d1d;
+  text-align: center;
+}
+.section-4 p {
+  font-family: "Helvetica";
+  color: #1d1d1d;
+  text-align: center;
+}
+
+.section-5 {
+  background-color: #fff;
+}
+.section-5 .transparent-p {
+  font-family: "Playfair Display", serif;
+  color: #faf6f0;
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  margin-bottom: 10px;
+}
+.section-5 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #1d1d1d;
+  text-align: center;
+}
+.section-5 p {
+  font-family: "Helvetica";
+  color: #1d1d1d;
+  text-align: center;
+}
+
+.section-6 {
+  background-image: url("/01-kababi/assets/img/our-chefs/imgbg-ourchefs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 255px 0;
+  text-align: center;
+}
+.section-6 .transparent-p {
+  font-family: "Playfair Display", serif;
+  color: rgba(255, 255, 255, 0.0274509804);
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  margin-bottom: 100px;
+}
+.section-6 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #fff;
+}
+.section-6 p {
+  font-family: "Helvetica";
+  color: #fff;
+}
+
+.section-7 {
+  background-color: #fff;
+}
+.section-7 .transparent-p {
+  font-family: "Playfair Display", serif;
+  color: #faf6f0;
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  margin-bottom: 10px;
+}
+.section-7 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #1d1d1d;
+  text-align: center;
+}
+.section-7 p {
+  font-family: "Helvetica";
+  color: #1d1d1d;
+  text-align: center;
+}
+.section-7 div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
