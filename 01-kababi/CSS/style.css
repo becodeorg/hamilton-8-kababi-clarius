@@ -306,12 +306,14 @@ footer .socials i:hover {
 }
 
 .section-1 {
-  height: 800px;
+  height: 900px;
   background-color: #f5eee3;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .section-1 .transparent-p {
+  box-sizing: border-box;
+  z-index: 2;
   font-family: "Playfair Display", serif;
   color: #faf6f0;
   font-size: 200px;
@@ -320,18 +322,27 @@ footer .socials i:hover {
   margin-bottom: 10px;
 }
 .section-1 h2 {
+  box-sizing: border-box;
+  z-index: 0;
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #1d1d1d;
   text-align: center;
+  padding-top: 100px;
 }
 .section-1 p {
   font-family: "Helvetica";
   color: #1d1d1d;
+  font-size: 25px;
   text-align: center;
+  padding-top: 50px;
+}
+.section-1 img {
+  width: 80px;
+  align-items: center;
 }
 .section-1 div {
-  margin-top: 10em;
+  margin: 2em 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -345,6 +356,7 @@ footer .socials i:hover {
   background-color: #fff;
   padding: 3%;
   margin-right: 10px;
+  width: 250px;
 }
 .section-1 article:hover {
   background-color: #c8a96a;
@@ -352,7 +364,7 @@ footer .socials i:hover {
 .section-1 article p {
   color: #1d1d1d;
   font-family: "Playfair Display", serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 .section-1 article p:hover {
   color: #fff;
@@ -360,6 +372,8 @@ footer .socials i:hover {
 .section-1 i {
   color: #1d1d1d;
   text-align: center;
+  padding-top: 1em;
+  font-size: 25px;
 }
 .section-1 i:hover {
   color: #fff;

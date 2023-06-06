@@ -61,6 +61,7 @@ img {
 header {
   height: 950px;
   background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
   background-size: cover;
   color: white;
 }
@@ -77,8 +78,8 @@ header section {
 header section img {
   height: auto;
   position: absolute;
-  top: 19.5%;
-  left: 32.5%;
+  top: 25%;
+  left: 33%;
 }
 header section h1 {
   font-family: "Playfair display";
@@ -100,7 +101,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 37.5px 20%;
+  padding: 37.5px 10%;
   color: white;
 }
 nav .navbar-brand {
@@ -123,17 +124,24 @@ nav .nav-list .nav-item :hover {
 nav .nav-list .nav-link {
   font-size: 17px;
 }
-nav div {
+nav .nav-list button.nav-link1 {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+nav div.book {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1em;
 }
-nav div p i {
+nav div.book p i {
   height: 17px;
   color: #c8a96a;
 }
-nav div a {
+nav div.book a {
   padding: 20px 30px;
   background-color: #c8a96a;
   text-align: center;
@@ -142,7 +150,49 @@ nav div a {
   font-size: 14px;
   border-radius: 5px;
 }
+nav .dropdown {
+  position: relative;
+}
+nav .dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.25rem);
+  background-color: white;
+  color: black;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  opacity: 0;
+  transform: translateY(0);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+nav .dropdown > .nav-link1:focus + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(-10px);
+  pointer-events: auto;
+}
 
+/*@media (max-width:1080px) {
+    nav {
+        padding: 0 2rem;
+        .nav-list .nav-item {
+            padding: 0 20px;
+        }
+    }
+}
+
+@media (max-width:675px) {
+
+    nav .nav-list {
+        display: grid;
+        position:absolute;
+        width:100%;
+        top:75px;
+        left:0;
+        transform:translateY(-100%);
+        z-index: -1;
+        transition:.6s;
+    }
+}*/
 footer {
   height: 800px;
   background-image: url("/01-kababi/assets/img/footer/img-ng-footer.jpg");
@@ -256,12 +306,14 @@ footer .socials i:hover {
 }
 
 .section-1 {
-  height: 800px;
+  height: 900px;
   background-color: #f5eee3;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .section-1 .transparent-p {
+  box-sizing: border-box;
+  z-index: 2;
   font-family: "Playfair Display", serif;
   color: #faf6f0;
   font-size: 200px;
@@ -270,18 +322,27 @@ footer .socials i:hover {
   margin-bottom: 10px;
 }
 .section-1 h2 {
+  box-sizing: border-box;
+  z-index: 0;
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #1d1d1d;
   text-align: center;
+  padding-top: 100px;
 }
 .section-1 p {
   font-family: "Helvetica";
   color: #1d1d1d;
+  font-size: 25px;
   text-align: center;
+  padding-top: 50px;
+}
+.section-1 img {
+  width: 80px;
+  align-items: center;
 }
 .section-1 div {
-  margin-top: 10em;
+  margin: 2em 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -295,6 +356,7 @@ footer .socials i:hover {
   background-color: #fff;
   padding: 3%;
   margin-right: 10px;
+  width: 250px;
 }
 .section-1 article:hover {
   background-color: #c8a96a;
@@ -302,7 +364,7 @@ footer .socials i:hover {
 .section-1 article p {
   color: #1d1d1d;
   font-family: "Playfair Display", serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 .section-1 article p:hover {
   color: #fff;
@@ -310,6 +372,8 @@ footer .socials i:hover {
 .section-1 i {
   color: #1d1d1d;
   text-align: center;
+  padding-top: 1em;
+  font-size: 25px;
 }
 .section-1 i:hover {
   color: #fff;

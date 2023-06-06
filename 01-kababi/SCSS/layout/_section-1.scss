@@ -1,0 +1,80 @@
+
+.section-1{
+    height:900px;
+    background-color: $mediumbeige;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+        .transparent-p{
+        box-sizing: border-box;
+        z-index:2;
+        font-family: 'Playfair Display', serif;
+        color: $lightbeige;
+        font-size: 200px;
+        float: left;
+        position: absolute;
+        margin-bottom: 10px;
+    }
+    h2{
+        box-sizing: border-box;
+        z-index: 0;
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        color: $black;
+        text-align: center;
+        padding-top: 100px;
+    }
+        p{
+        font-family: "Helvetica";
+        color: $black;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+    }
+        img{
+            width: 80px;
+            align-items: center;
+        }
+        div{
+        margin: 2em 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 5%;
+        gap: 1em;
+    }
+        article{
+        display: grid;
+        background-color: $white;
+        padding: 3%;
+        margin-right: 10px;
+        width: 250px;
+
+        &:hover{
+            background-color: $gold;
+
+        }
+    }
+        article p{
+        color: $black;
+        font-family: 'Playfair Display', serif;
+        font-size:22px;
+
+        &:hover{
+            color: $white;
+        }
+    }
+        i{
+        color: $black;
+        text-align: center;
+        padding-top: 1em;
+        font-size: 25px;
+
+        &:hover{
+            color: $white;
+        }
+    }
+    
+}
