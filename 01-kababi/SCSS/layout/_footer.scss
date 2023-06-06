@@ -1,2 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap%27');
+
+footer {
+    background-image: url("/01-kababi/assets/img/footer/img-ng-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    text-align: center;
+
+        .footlogo{
+            margin-top: 40px;
+            height: 60px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows:auto;
+            grid-template-columns: 25% 25% 25% 25%;
+            text-align: left;
+            padding: 5% 10%;
+            margin: 5 0;
+            line-height: 38px;
+
+        }
+
+        .footer-title{
+            font-size: 30px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            padding-bottom: 30px;
+            align-items: center;
+        }
+
+        ul{
+
+            font-family: "Helvetica",sans-serif;
+            color: $grey;
+            font-size: 16px;
+        }
+
+        p{
+            color: $grey;
+            font-family: "Helvetica",sans-serif;
+            font-size: 16px;
+        }
+
+        a{
+            text-decoration: none;
+            color: $grey;
+            font-family: "Helvetica",sans-serif;
+            font-size: 16px;
+                &:hover{
+                    color: $white;
+                    font-weight: 900;
+                }
+        }
+        input{
+            height: 40px;
+            width: 80%;
+            border: none;
+        }
+        .contact{
+            margin-left: 100px;
+        }
+        .contact img{
+            width: 20px;
+        }
+
+        .link-footer{
+            color:$gold;
+        }
+        .footer-btn{
+            background-color: $gold;
+            display: inline-block;
+            position: absolute;
+            height: 42px;
+            width: 3%;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        hr{
+            width: 80%;
+        }
+
+        .copyright{
+            float: left;
+            padding-left: 10%;
+            margin-top: 1%;
+        }
+        #scroll-top{
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .socials{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding-right: 10%;
+            margin-top: 1%;
+        }
+        .socials i{
+            font-size: 20px;
+            color: $grey;
+            margin: 5px;
+            padding: 12px;
+            background-color: #9a9c9a65;
+            border-radius: 50%;
+
+                &:hover{
+                color: $white;
+                background-color: $gold;
+            }
+        }
 
 
+
+}
