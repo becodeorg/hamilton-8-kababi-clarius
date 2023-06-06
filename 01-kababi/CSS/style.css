@@ -1,4 +1,6 @@
-
+/*back section 4 / cards section 7*/
+/*category / our menu)*/
+/*social icons*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap%27");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -58,8 +60,7 @@ img {
 
 header {
   height: 950px;
-  width: 100vw;
-  background-image: radial-gradient(circle, rgb(193, 193, 193) 0%, rgb(189, 187, 187) 11%, rgb(0, 0, 0) 52%), url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  background-image: radial-gradient(circle, rgb(75, 104, 255) 0%, rgba(200, 169, 106, 0.1) 0%), url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
   background-size: cover;
   color: white;
 }
@@ -76,8 +77,8 @@ header section {
 header section img {
   height: auto;
   position: absolute;
-  top: 19.5%;
-  left: 32.5%;
+  top: 25%;
+  left: 33%;
 }
 header section h1 {
   font-family: "Playfair display";
@@ -99,7 +100,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 37.5px 20%;
+  padding: 37.5px 10%;
   color: white;
 }
 nav .navbar-brand {
@@ -141,7 +142,51 @@ nav div a {
   font-size: 14px;
   border-radius: 5px;
 }
+nav ul li.nav-item1 {
+  display: inline-block;
+  position: relative;
+}
+nav ul li.nav-item1 a {
+  display: block;
+  padding: 20px 25px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
+nav ul li.nav-item1 .dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+nav ul li.nav-item1 .dropdown li {
+  display: block;
+}
+nav ul li.nav-item1 :hover ul.dropdown {
+  display: block;
+}
 
+@media (max-width: 1080px) {
+  nav {
+    padding: 0 2rem;
+  }
+  nav .nav-list .nav-item {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 675px) {
+  nav .nav-list {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    left: 0;
+    transform: translateY(-100%);
+    z-index: -1;
+    transition: 0.6s;
+  }
+}
 footer {
   background-image: url("/01-kababi/assets/img/footer/img-ng-footer.jpg");
   background-repeat: no-repeat;
@@ -244,7 +289,6 @@ footer .socials i:hover {
   color: #fff;
   background-color: #c8a96a;
 }
-
 .section-1 {
   background-color: #f5eee3;
   background-repeat: no-repeat;

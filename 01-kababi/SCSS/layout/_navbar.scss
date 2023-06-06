@@ -3,7 +3,7 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 37.5px 20%;
+    padding: 37.5px 10%;
     //height: 75px;
     color: white;
 
@@ -51,4 +51,51 @@ nav {
             border-radius: 5px;
         }
     }    
+    ul li.nav-item1 {
+        display:inline-block;
+        position: relative;
+        a {
+            display: block;
+            padding: 20px 25px;
+            text-decoration: none;
+            text-align: center;
+            color:white;
+            font-size: 17px;
+        }
+        .dropdown {
+            width:100%;
+            position: absolute;
+            z-index: 999;
+            display:none;
+            li {
+                display:block;
+            }
+        }
+        :hover ul.dropdown {
+            display:block;
+        }
+    }
+}
+
+@media (max-width:1080px) {
+    nav {
+        padding: 0 2rem;
+        .nav-list .nav-item {
+            padding: 0 20px;
+        }
+    }
+}
+
+@media (max-width:675px) {
+
+    nav .nav-list {
+        display: grid;
+        position:absolute;
+        width:100%;
+        top:75px;
+        left:0;
+        transform:translateY(-100%);
+        z-index: -1;
+        transition:.6s;
+    }
 }
