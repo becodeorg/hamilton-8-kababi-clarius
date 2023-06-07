@@ -41,6 +41,7 @@
     .p2{
         color:$gold;
         font-size: 40px;
+        font-family: "Playfair Display", serif;
         text-align: end;
         position: relative;
         transform: translateY(-110%);
@@ -56,6 +57,7 @@
         grid-template-rows: 12.5% 12.5% 12.5% 12.5% ;
         padding: 5%;
         gap: 2em;
+        
     }
     article{
         display: grid;
@@ -63,22 +65,26 @@
         padding: 5%;
         border-radius: 5px;
         align-items: center;
+        z-index: 1;
     
     &:hover{
         border: dotted 3px $gold;
         }
     }
 
-     #steak{
-        width: 25px;
-        height: 600px;
+    #steak{
+        width: 225px;
+        height: 650px;
         float: left;
-        transform: translateY(-100%);
+        transform: translateY(-125%);
+    
+
     }
     #bread{
-        width: 25px;
-        height: 600px;
+        width: 600px;
+        height: 900px;
         float: right;
-        transform: translateY(-200%);
+        transform: translateY(-134%);    
+        z-index: 2;
     }
 }
