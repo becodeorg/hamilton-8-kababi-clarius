@@ -32,10 +32,17 @@ header section {
     }
     a {
         padding:20px 30px;
-        border: 2px solid white;
+        border: 1px solid white;
         text-align: center;
         color:white;           
         font-size: 14px;
         border-radius: 5px;
+
+        &:hover{
+            color: $white;
+            background-color: $gold;
+            border: solid 1px $gold;
+            font-weight: 900;
+        }
     }
 }

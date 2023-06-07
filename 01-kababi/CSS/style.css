@@ -89,11 +89,17 @@ header section h1 {
 }
 header section a {
   padding: 20px 30px;
-  border: 2px solid white;
+  border: 1px solid white;
   text-align: center;
   color: white;
   font-size: 14px;
   border-radius: 5px;
+}
+header section a:hover {
+  color: #fff;
+  background-color: #c8a96a;
+  border: solid 1px #c8a96a;
+  font-weight: 900;
 }
 
 nav {
@@ -416,6 +422,7 @@ footer .socials i:hover {
 }
 
 .section-3 {
+  height: 900px;
   background-color: #fff;
 }
 .section-3 .transparent-p {
@@ -427,15 +434,59 @@ footer .socials i:hover {
   margin-bottom: 10px;
 }
 .section-3 h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #1d1d1d;
   text-align: center;
+  padding-top: 50px;
+  font-family: "Playfair Display", serif;
 }
 .section-3 p {
   font-family: "Helvetica";
   color: #1d1d1d;
+  font-size: 25px;
   text-align: center;
+  padding-top: 50px;
+}
+.section-3 img {
+  float: right;
+  width: 158px;
+  height: 158px;
+  transform: translatex(-150%);
+}
+.section-3 article {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 10%;
+  margin: 0 15%;
+}
+.section-3 article p {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #1d1d1d;
+  margin: 0 10%;
+  text-align: left;
+}
+.section-3 article img {
+  width: 310px;
+  height: 420px;
+  transform: none;
+}
+.section-3 div {
+  text-align: center;
+}
+.section-3 a {
+  font-weight: 600;
+  color: #fff;
+  background-color: #c8a96a;
+  padding: 25px;
+  border-radius: 5px;
+}
+.section-3 a:hover {
+  color: #1d1d1d;
+  background-color: #fff;
+  border: solid 1px #9a9ca5;
 }
 
 .section-4 {
@@ -509,14 +560,14 @@ footer .socials i:hover {
 .section-4 #steak {
   width: 225px;
   height: 650px;
-  float: left;
   transform: translateY(-125%);
+  z-index: 1;
 }
 .section-4 #bread {
   width: 600px;
   height: 900px;
   float: right;
-  transform: translateY(-134%);
+  transform: translateY(-133.8%);
   z-index: 2;
 }
 
@@ -545,6 +596,39 @@ footer .socials i:hover {
   font-size: 25px;
   text-align: center;
   padding-top: 50px;
+}
+.section-5 .img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  flex-basis: 350px;
+  position: relative;
+  cursor: pointer;
+}
+.section-5 .img-gallery li img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+.section-5 .img-gallery li img:hover {
+  opacity: 30%;
+}
+.section-5 div {
+  text-align: center;
+}
+.section-5 a {
+  font-weight: 600;
+  color: #1d1d1d;
+  border: solid 1px #9a9ca5;
+  background-color: transparent;
+  padding: 25px;
+  border-radius: 5px;
+}
+.section-5 a:hover {
+  color: #fff;
+  background-color: #c8a96a;
+  border: solid 1px #c8a96a;
 }
 
 .section-6 {
