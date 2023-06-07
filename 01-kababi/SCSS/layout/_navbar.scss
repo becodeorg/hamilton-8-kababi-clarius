@@ -11,6 +11,7 @@ nav {
     }
     .navbar-brand img{
         height:50px;
+        width:100%;
     }
 
     .nav-list {
@@ -83,12 +84,9 @@ nav {
 }
 
 
-/*@media (max-width:1080px) {
-    nav {
-        padding: 0 2rem;
-        .nav-list .nav-item {
-            padding: 0 20px;
-        }
+@media only screen and (max-width:768px) {
+    nav ul, nav div.book {
+        display:none;
     }
 }
 
@@ -104,4 +102,4 @@ nav {
         z-index: -1;
         transition:.6s;
     }
-}*/
+}
