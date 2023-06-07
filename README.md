@@ -1,5 +1,20 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/kMR8HjA5)
+# Kababi Food Project
+## What is it ?
+The first group project of the Hamilton 8 promo in BeCode Liège !
 
-First group project of the Hamilton 8 promo in BeCode Liège
 
-Members : Marius Waseige & Clara Mahaux
+Our challenge was to build a responsive website based on a given template in 4 days.
+
+## Members
+[Clara](https://github.com/clamaha) & [Marius](https://github.com/Flabidouf) aka Clarius
+
+## Languages used
++ HTML
+* SCSS
+## Skills needed
+* Team work
+* Organization
+* SASS
+* Git (conflict resolution 😮‍💨)
+---
+**Take a look at our finished project [right here](link)**
