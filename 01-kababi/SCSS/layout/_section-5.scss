@@ -4,7 +4,7 @@
     background-color: $white;
     
     .transparent-p{
-        font-family: 'Playfair Display', serif;
+        font-family: $font-serif;
         color: $lightbeige;
         font-size: 200px;
         float: left;
@@ -12,14 +12,14 @@
         margin-bottom: 10px;
     }
     h2{
-        font-family: 'Playfair Display', serif;
+        font-family: $font-serif;
         font-size: 50px;
         color: $black;
         text-align: center;
         padding-top: 50px;
     }
     p{
-        font-family: "Helvetica";
+        font-family: $font-sans-serif;
         color: $black;
         font-size: 25px;
         text-align: center;

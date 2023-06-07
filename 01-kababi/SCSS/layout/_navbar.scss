@@ -4,7 +4,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 37.5px 10%;
-    //height: 75px;
     color: white;
 
     .navbar-brand {
@@ -21,7 +20,6 @@ nav {
             cursor: pointer;
             height:100%;
             padding: 0 30px;
-            //transition: .4s;
 
             :hover {
                 color: $gold;

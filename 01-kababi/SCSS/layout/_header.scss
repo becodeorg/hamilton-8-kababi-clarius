@@ -3,9 +3,6 @@ header {
     height:950px;
     //width:100vw;
     background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
-
-    background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
-
     background-size: cover;
     color:white;
 
@@ -26,7 +23,7 @@ header section {
         left: 33%;
     }
     h1 {
-        font-family:"Playfair display";
+        font-family:$font-serif;
         font-size: 130px;
         letter-spacing: -4.5px;
         margin-bottom:30px;
