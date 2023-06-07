@@ -2,7 +2,7 @@
 .section-4{
     height:900px;
     background-color: $mediumbeige;
-    font-family: $font-serif;
+    
 
     .transparent-p{
         color: $lightbeige;
@@ -10,15 +10,17 @@
         float: left;
         position: absolute;
         margin-bottom: 10px;
+        font-family: "Playfair Display", serif;
         }
     h2{
         font-size: 50px;
         color: $black;
         text-align: center;
         padding-top: 50px;
+        font-family: "Playfair Display", serif;
         }
     p{
-        font-family: $font-sans-serif;
+        font-family: "Helvetica";
         color: $black;
         font-size: 25px;
         text-align: center;
@@ -27,9 +29,10 @@
     h3{
         font-size: 22px;
         color: $black; 
+        font-family: "Playfair Display", serif;
         }
     .p1{
-        font-family: $font-sans-serif;
+        font-family: "Helvetica";
         color: $grey;
         font-size: 16px;
         text-align: left;

@@ -61,7 +61,6 @@ img {
 header {
   height: 950px;
   background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
-  background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
   background-size: cover;
   color: white;
 }
@@ -310,6 +309,7 @@ footer .socials i:hover {
   background-color: #f5eee3;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Playfair Display", serif;
 }
 .section-1 .transparent-p {
   font-family: "Playfair Display", serif;
@@ -362,8 +362,8 @@ footer .socials i:hover {
 }
 .section-1 article p {
   color: #1d1d1d;
-  font-family: "Playfair Display", serif;
   font-size: 20px;
+  font-family: "Playfair Display", serif;
 }
 .section-1 article p:hover {
   color: #fff;
@@ -416,7 +416,6 @@ footer .socials i:hover {
 }
 
 .section-3 {
-  height: 800px;
   background-color: #fff;
 }
 .section-3 .transparent-p {
@@ -444,19 +443,19 @@ footer .socials i:hover {
   background-color: #f5eee3;
 }
 .section-4 .transparent-p {
-  font-family: "Playfair Display", serif;
   color: #faf6f0;
   font-size: 200px;
   float: left;
   position: absolute;
   margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
 }
 .section-4 h2 {
-  font-family: "Playfair Display", serif;
   font-size: 50px;
   color: #1d1d1d;
   text-align: center;
   padding-top: 50px;
+  font-family: "Playfair Display", serif;
 }
 .section-4 p {
   font-family: "Helvetica";
@@ -466,9 +465,9 @@ footer .socials i:hover {
   padding-top: 50px;
 }
 .section-4 h3 {
-  font-family: "Playfair Display", serif;
   font-size: 22px;
   color: #1d1d1d;
+  font-family: "Playfair Display", serif;
 }
 .section-4 .p1 {
   font-family: "Helvetica";
@@ -479,7 +478,6 @@ footer .socials i:hover {
 }
 .section-4 .p2 {
   color: #c8a96a;
-  font-family: "Playfair Display", serif;
   font-size: 40px;
   text-align: end;
   position: relative;
