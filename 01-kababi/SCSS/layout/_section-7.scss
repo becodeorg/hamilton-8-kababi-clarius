@@ -25,7 +25,25 @@
         text-align: center;
         padding-top: 50px;
     }
-    div{
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 200px;
+        margin: 0 10%;
+    }
+
+    .container img{
+        width: 400px;
+        height: auto;
+    }
+    .text{
+        background-color: $lightbeige;
+    }
+
+    .brands{
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -600,19 +600,18 @@ footer .socials i:hover {
 .section-5 .img-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 18px;
-  flex-basis: 350px;
-  position: relative;
-  cursor: pointer;
+  margin: 0;
+  gap: 2em;
 }
-.section-5 .img-gallery li img {
-  object-fit: cover;
-  max-width: 100%;
+.section-5 .img-gallery img {
+  width: auto;
   height: auto;
+  object-fit: cover;
+  vertical-align: middle;
 }
-.section-5 .img-gallery li img:hover {
-  opacity: 30%;
+.section-5 .img-gallery img:hover {
+  opacity: 20%;
+  cursor: pointer;
 }
 .section-5 div {
   text-align: center;
@@ -700,7 +699,22 @@ footer .socials i:hover {
   text-align: center;
   padding-top: 50px;
 }
-.section-7 div {
+.section-7 .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 200px;
+  margin: 0 10%;
+}
+.section-7 .container img {
+  width: 400px;
+  height: auto;
+}
+.section-7 .text {
+  background-color: #faf6f0;
+}
+.section-7 .brands {
   display: flex;
   flex-direction: row;
   align-items: center;

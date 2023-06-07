@@ -26,24 +26,23 @@
         padding-top: 50px;
         }
         
-        .img-gallery{
+        
+          .img-gallery {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            gap: 18px;
-            flex-basis: 350px;
-            position: relative;
-            cursor: pointer;
-        }
-
-        .img-gallery li img {
-            object-fit: cover;
-            max-width: 100%;
+            margin:0;
+            gap: 2em;
+          }
+          .img-gallery img {
+            width: auto;
             height: auto;
-            
-            &:hover{
-                opacity: 30%;
-            }
+            object-fit: cover;
+            vertical-align: middle;
+
+                &:hover{
+                    opacity: 20%;
+                    cursor: pointer;
+                }
           }
             div{
             text-align: center;
