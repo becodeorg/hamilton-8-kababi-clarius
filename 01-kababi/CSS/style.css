@@ -54,13 +54,18 @@ table {
   border-spacing: 0;
 }
 
+body {
+  position: relative;
+}
+
 img {
   height: 100px;
 }
 
 header {
   height: 950px;
-  background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  background: linear-gradient(to bottom right, black, transparent), url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+  background-position: 50%;
   background-size: cover;
   color: white;
 }
@@ -77,8 +82,8 @@ header section {
 header section img {
   height: auto;
   position: absolute;
-  top: 25%;
-  left: 33%;
+  top: 13%;
+  left: 40%;
 }
 header section h1 {
   font-family: "Playfair display";
@@ -101,6 +106,13 @@ header section a {
     font-size: 80px;
     line-height: 100px;
   }
+  .section-header {
+    margin-left: -30px;
+  }
+  header section img {
+    top: 10%;
+    left: 50%;
+  }
 }
 nav {
   display: flex;
@@ -113,28 +125,23 @@ nav .navbar-brand {
   display: flex;
 }
 nav .navbar-brand img {
-  height: 50px;
+  height: auto;
   width: 100%;
+  z-index: 20;
 }
 nav .nav-list {
   display: flex;
+  z-index: 10;
 }
 nav .nav-list .nav-item {
   cursor: pointer;
-  height: 100%;
-  padding: 0 30px;
+  padding: 0 20px;
+  padding-top: 10px;
 }
 nav .nav-list .nav-item :hover {
   color: #c8a96a;
 }
 nav .nav-list .nav-link {
-  font-size: 17px;
-}
-nav .nav-list button.nav-link1 {
-  background: none;
-  border: none;
-  text-decoration: none;
-  color: white;
   font-size: 17px;
 }
 nav div.book {
@@ -156,42 +163,49 @@ nav div.book a {
   font-size: 14px;
   border-radius: 5px;
 }
-nav .dropdown {
-  position: relative;
+nav .menu-hamburger {
+  color: white;
+  height: 35px;
+  display: none;
 }
-nav .dropdown-menu {
-  position: absolute;
-  left: 0;
-  top: calc(100% + 0.25rem);
-  background-color: white;
-  color: black;
-  padding: 0.75rem;
-  border-radius: 0.25rem;
-  opacity: 0;
-  transform: translateY(0);
-  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-}
-nav .dropdown > .nav-link1:focus + .dropdown-menu {
-  opacity: 1;
-  transform: translateY(-10px);
-  pointer-events: auto;
+
+header nav .mobile-menu {
+  top: 0;
 }
 
 @media only screen and (max-width: 768px) {
-  nav ul, nav div.book {
+  nav {
+    padding: 0;
+  }
+  nav div.book {
     display: none;
   }
-}
-@media (max-width: 675px) {
   nav .nav-list {
-    display: grid;
+    transition: all 0.5s ease;
+    top: -100vh;
     position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
     width: 100%;
-    top: 75px;
-    left: 0;
-    transform: translateY(-100%);
-    z-index: -1;
-    transition: 0.6s;
+    min-height: 40vh;
+    background-color: #202020;
+  }
+  nav .nav-item {
+    margin-bottom: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.419);
+  }
+  nav .menu-hamburger {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    z-index: 15;
+  }
+  nav a.navbar-brand {
+    position: absolute;
+    top: 33px;
+    left: 30px;
   }
 }
 footer {
@@ -380,6 +394,15 @@ footer .socials i:hover {
   color: #fff;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-1 .transparent-p {
+    font-size: 74px;
+    line-height: 100px;
+  }
+  .section-1 .cases {
+    flex-direction: column;
+  }
+}
 .section-2 {
   background-color: #fff;
   display: flex;

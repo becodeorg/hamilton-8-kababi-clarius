@@ -78,3 +78,16 @@
     }
     
 }
+
+@media only screen and (max-width:768px) {
+    .section-1 {
+        .transparent-p {
+            font-size:74px;
+            line-height:100px;
+        }
+        .cases {
+            flex-direction: column;
+        }
+    }
+    
+}

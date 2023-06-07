@@ -2,8 +2,8 @@
 header {
     height:950px;
     //width:100%;
-    background-image: url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
-
+    background: linear-gradient(to bottom right, black, transparent),url("/01-kababi/assets/img/slider/img_bg_slider_home01.jpg");
+    background-position:50%;
     background-size: cover;
     color:white;
 
@@ -20,8 +20,8 @@ header section {
     img {
         height: auto;
         position: absolute;
-        top: 25%;
-        left: 33%;
+        top: 13%;
+        left: 40%;
     }
     h1 {
         font-family:"Playfair display";
@@ -45,5 +45,12 @@ header section {
     header section h1 {
         font-size: 80px;
         line-height: 100px;
+    }
+    .section-header {
+        margin-left:-30px;
+    }
+    header section img {
+        top:10%;
+        left:50%;
     }
 }
