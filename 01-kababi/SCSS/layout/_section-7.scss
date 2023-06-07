@@ -1,4 +1,3 @@
-
 .section-7{
     height:900px;
     background-color: $white;
@@ -31,16 +30,35 @@
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        padding-top: 200px;
-        margin: 0 10%;
+        padding-top: 100px;
+        //margin: 0 15%;
+        justify-content: center;
     }
 
     .container img{
+        display: block;
         width: 400px;
         height: auto;
+        justify-content: center;
     }
     .text{
+        padding: 10%;
         background-color: $lightbeige;
+    } 
+
+    a{
+        font-weight: 600;
+        color: $black;
+        border: solid 1px $grey;
+        background-color: transparent;
+        padding: 5px;
+        border-radius: 5px;
+
+        &:hover{
+            color: $white;
+            background-color: $gold;
+            border: solid 1px $gold;
+        }
     }
 
     .brands{
@@ -51,4 +69,20 @@
     margin: 20px 10px;
 
     }
+}
+
+@media only screen and (max-width:768px) {
+    .section-7 {
+        .transparent-p { 
+            font-size: 74px;
+            line-height: 100px;
+        }
+        .container {
+            margin:0;
+        }
+        .brands {
+            display:block;
+        }
+    }
+
 }

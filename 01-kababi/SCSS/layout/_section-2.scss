@@ -40,3 +40,20 @@
         transform: translate(0,-20px) ;
     }
 }
+
+@media only screen and (max-width:768px) {
+    .section-2 {
+        display:block;
+}
+    .section-2__img1 {
+        width:100%;
+    }
+    .section-2 .section-2__img2 {
+        width:100%;
+        margin-top:0;
+    }
+    .section-2__img3 {
+        width:100%;
+    }
+}
+

@@ -62,3 +62,21 @@
             }
         }
 }
+
+
+@media only screen and (max-width:768px) {
+  .section-5 {
+    
+    .transparent-p { 
+         font-size: 74px;
+         line-height: 100px;
+    }
+ 
+      .img-gallery img {
+        display:flex;
+        justify-content: center;
+        width:200px;
+        
+    }
+  } 
+} 

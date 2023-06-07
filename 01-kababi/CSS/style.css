@@ -446,6 +446,21 @@ footer .socials i:hover {
   transform: translate(0, -20px);
 }
 
+@media only screen and (max-width: 768px) {
+  .section-2 {
+    display: block;
+  }
+  .section-2__img1 {
+    width: 100%;
+  }
+  .section-2 .section-2__img2 {
+    width: 100%;
+    margin-top: 0;
+  }
+  .section-2__img3 {
+    width: 100%;
+  }
+}
 .section-3 {
   height: 900px;
   background-color: #fff;
@@ -514,6 +529,12 @@ footer .socials i:hover {
   border: solid 1px #9a9ca5;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-3 .transparent-p {
+    font-size: 74px;
+    line-height: 100px;
+  }
+}
 .section-4 {
   height: 900px;
   background-color: #f5eee3;
@@ -597,6 +618,19 @@ footer .socials i:hover {
   z-index: 2;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-4 .transparent-p {
+    font-size: 74px;
+    line-height: 100px;
+  }
+  .section-4 .cases {
+    margin: 0;
+  }
+}
+#bread, #steak {
+  display: none;
+}
+
 .section-5 {
   height: 900px;
   background-color: #fff;
@@ -656,6 +690,17 @@ footer .socials i:hover {
   border: solid 1px #c8a96a;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-5 .transparent-p {
+    font-size: 74px;
+    line-height: 100px;
+  }
+  .section-5 .img-gallery img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+  }
+}
 .section-6 {
   height: 900px;
   background-image: url("/01-kababi/assets/img/our-chefs/imgbg-ourchefs.jpg");
@@ -699,6 +744,14 @@ footer .socials i:hover {
   box-shadow: 0 0 100px #fff;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-6 .chefs {
+    display: grid;
+  }
+  .section-6 .transparent-p {
+    width: 300px;
+  }
+}
 .section-7 {
   height: 900px;
   background-color: #fff;
@@ -730,15 +783,31 @@ footer .socials i:hover {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  padding-top: 200px;
-  margin: 0 10%;
+  padding-top: 100px;
+  justify-content: center;
 }
 .section-7 .container img {
+  display: block;
   width: 400px;
   height: auto;
+  justify-content: center;
 }
 .section-7 .text {
+  padding: 10%;
   background-color: #faf6f0;
+}
+.section-7 a {
+  font-weight: 600;
+  color: #1d1d1d;
+  border: solid 1px #9a9ca5;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+}
+.section-7 a:hover {
+  color: #fff;
+  background-color: #c8a96a;
+  border: solid 1px #c8a96a;
 }
 .section-7 .brands {
   display: flex;
@@ -746,6 +815,19 @@ footer .socials i:hover {
   align-items: center;
   justify-content: space-evenly;
   margin: 20px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-7 .transparent-p {
+    font-size: 74px;
+    line-height: 100px;
+  }
+  .section-7 .container {
+    margin: 0;
+  }
+  .section-7 .brands {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
